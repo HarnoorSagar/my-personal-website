@@ -1,0 +1,117 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.projects-title{
+    position: relative;
+}
+.projects-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.projects-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1550px;
+    height: auto;
+    background: #161513;;
+    margin: 10px 0px;
+    font-family: 'outfit';
+}
+.projects-bloc-tabs{
+    display: flex;
+    border-color: none;
+    justify-content: center;
+}
+.projects-tabs{
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 19%;
+    background: #161513;
+    cursor: pointer;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+    font-size: 24px;
+    font-family: 'outfit';
+    color: white;
+    border-radius: 50px;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+.projects-tabs:hover:not(.active-tabs){
+    border: 1px solid #B415FF;
+    transform: scale(0.98);
+}
+.projects-active-tabs{
+    background-image: #161513;;
+    color: white;
+    border-color: #ffffff;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+}
+.content-tabs{
+    flex-grow: 1;
+}
+.projects-content{
+    background-image: #161513;
+    margin-top: 80px;
+    width: 94.5%;
+    height: 100%;
+    display: none;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.projects-text h1{
+    color: #a189ac;
+    font-size: 50px;
+    font-weight: 500;
+}
+.projects-text p{
+    /* adds margin from the top and bottom */
+    margin-top: 35px;
+    font-size: 24px;
+    color: #d4d4d4;
+    line-height: 35px;
+}
+.projects-text p a{
+    font-weight: 600;
+    color: #d4d4d4;
+}
+.active-content{
+    /* the content will show */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.projects-text {
+    flex: 1.4;
+    
+}
+.projects-video {
+    flex: 1;
+    padding: 20px;
+    margin-top: 60px;
+}
+.projects-video video {
+    width: 100%; /* Ensures the video takes up the available width */
+    height: auto; /* Maintains aspect ratio */
+    border: 1px solid white;
+    border-radius: 10px;
+}
+

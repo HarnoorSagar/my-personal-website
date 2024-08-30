@@ -1,0 +1,150 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+    
+}
+.about-title{
+    position: relative;
+}
+.about-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.about-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.about-section{
+    gap: 0px;
+    display: flex;
+}
+.about-left img{
+    height: auto;
+    max-width: 90%;
+    border-radius: 10%;
+}
+.about-right{
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
+.about-para{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 800px;
+    height: auto;
+    background: #161513;;
+    margin: 10px 0px;
+    word-break: break-all;
+    font-family: 'outfit';
+}
+.bloc-tabs{
+    display: flex;
+    border-color: none;
+}
+.tabs{
+    padding: 10px;
+    text-align: center;
+    width: 29%;
+    background: #161513;
+    cursor: pointer;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+    font-size: 24px;
+    font-family: 'outfit';
+    color: white;
+    border-radius: 50px;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+.tabs:hover:not(.active-tabs){
+    border: 1px solid #B415FF;
+    transform: scale(0.98);
+}
+.active-tabs{
+    background-image: #161513;;
+    color: white;
+    border-color: #B415FF;
+}
+.content-tabs{
+    flex-grow: 1;
+}
+.content{
+    background-image: #161513;
+    padding: 20px 0px;
+    width: 94.5%;
+    height: 100%;
+    display: none;
+    color: white;
+}
+.content ul li span {
+    color: #a189ac;
+    font-size: 18px;
+}
+.content ul li {
+    /* removes the dots for the bullet points */
+    list-style: none;
+    /* adds margin from the top and bottom */
+    margin: 23px 0px; 
+    font-size: 20px;
+}
+.active-content{
+    /* the content will show */
+    display: block; 
+}
+
+@media (max-width: 768px) {
+    .about{
+        gap: 80px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+    .about-title h1{
+        font-size: 50px;
+        padding: 0px;
+    }
+    .about-title img{
+        width: 130px;
+        right: -20px;
+    }
+    .about-section{
+        flex-direction: column;
+    }
+    .about-left{
+        display: none;
+    }
+    .about-para{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .container{
+        width: 610px;
+        margin: 1px;
+    }
+    .tabs{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .content ul li span {
+        font-size: 16px;
+    }
+    .content ul li {
+        font-size: 19px;
+    }
+}
