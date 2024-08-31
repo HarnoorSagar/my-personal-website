@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='footer'>
         <hr />
         <div className="footer-bottom">
-            <p className="footer-bottom-left">© 2023 Alex Bennet. All rights reserved.</p>
+            <p className="footer-bottom-left">Inspired by GreatStack.</p>
         </div>
     </div>
   )
