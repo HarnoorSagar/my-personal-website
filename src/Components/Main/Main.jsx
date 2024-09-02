@@ -11,7 +11,7 @@ const Main = () => {
         <p>I thoroughly enjoy exploring various software and programming languages to expand my knowledge and create innovative solutions to real-world problems.</p>
         <div className="main-action">
             <div className="main-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink></div>
-            <div className="main-resume">My Resume</div>
+            <div className="main-resume"><a href="https://drive.google.com/drive/folders/15CVi9RBQbJqBqiZVgKLHXukNCdGE9Nkk?usp=sharing" target='_blank'>My Resume</a></div>
         </div>
     </div>
   )
