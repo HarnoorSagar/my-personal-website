@@ -43,7 +43,7 @@ export const Contact = () => {
                 <p>I'm always look for new opportunities in the field of software engineering, so feel free to contact me or connect with me on LinkedIn!</p>
                 <div className="contact-details">
                     <div className="contact-detail">
-                        <img src={mail_icon} alt="" /><a href='harnoor.sagar@gmail.com' target='_blank'><p>harnoor.sagar@gmail.com</p></a>
+                        <img src={mail_icon} alt="" /><a href='mailto:harnoor.sagar@gmail.com' target='_blank'><p>harnoor.sagar@gmail.com</p></a>
                     </div>
                     <div className="contact-detail">
                         <img src={call_icon} alt="" /> <p>(289) 927-6435</p>
