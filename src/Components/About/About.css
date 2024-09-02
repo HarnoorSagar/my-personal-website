@@ -176,7 +176,7 @@
     }
 
     .tabs {
-        width: 90%;
+        width: 100%;
         font-size: 20px;
         padding: 8px;
         border-radius: 30px;
@@ -185,6 +185,7 @@
     .content {
         width: 100%;
         padding: 20px;
+        align-items: start;
     }
 
     .content ul li {
