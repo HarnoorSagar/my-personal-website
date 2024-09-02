@@ -96,6 +96,7 @@
 .content ul li span {
     color: #a189ac;
     font-size: 18px;
+    font-weight: 500;
 }
 .content ul li {
     /* removes the dots for the bullet points */
