@@ -130,6 +130,9 @@
         width: 130px;
         right: -20px;
     }
+    .projects-bloc-tabs{
+        justify-content: left;
+    }
     .projects-container {
         width: 100%;
         margin: 10px 0;
