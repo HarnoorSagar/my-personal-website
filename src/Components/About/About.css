@@ -150,7 +150,7 @@
     } */
     .about-section {
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         gap: 40px;
     }
 
@@ -161,23 +161,26 @@
 
     .about-right {
         gap: 40px;
-        text-align: center;
+        text-align: left;
+        justify-content: left;
         padding: 0 10px;
     }
 
     .about-para {
         gap: 15px;
         font-size: 18px;
+        justify-content: left;
     }
 
     .container {
         width: 100%;
         margin: 20px 0;
+        justify-content: left;
     }
 
     .tabs {
-        width: 100%;
-        font-size: 20px;
+        width: 150%;
+        font-size: 18px;
         padding: 8px;
         border-radius: 30px;
     }
@@ -185,7 +188,6 @@
     .content {
         width: 100%;
         padding: 20px;
-        align-items: start;
         justify-content: left;
     }
 
