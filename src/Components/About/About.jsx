@@ -24,8 +24,8 @@ const toggleTab = (index) => {
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>I am a Grade 12 student at Maxwell Heights Secondary School. I am an aspiring Web Developer and UI/UX Designer and have a passion for learning multiple programming languages. </p>
-                    <p>At the moment, I am working towards developing my skills in HTML5, CSS3, and JavaScript. I plan on pursuing a degree in Computer Science or Software Engineering in the future to achieve my career goals.</p>
+                    <p>I am an Engineering 1 student at McMaster University. I am an aspiring Web Developer and UI/UX Designer, and have a passion for learning multiple programming languages. </p>
+                    <p>At the moment, I am working towards developing my skills in HTML5, CSS3, and JavaScript. I plan on pursuing Software Engineering and Management in second year, and look forward to learning more about the fields of artificial intelligence, cybersecurity, and web development.</p>
                 </div>
 
                 <div className="container">
