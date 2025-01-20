@@ -3,8 +3,6 @@ import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import about_profileme from '../../assets/about_profileme.jpg'
 
-// TODO: Change the paragraph in the about section
-// TODO: Fill in the skills and extracurriculars
 
 const About = () => {
 const [toggleState, setToggleState] = useState(1);
@@ -39,7 +37,7 @@ const toggleTab = (index) => {
                         <div className={toggleState === 1? 'content active-content': 'content'}>
                             <ul>
                                 <li>
-                                    <span>Developer Skills</span><br />Python, C#, HTML5, CSS3, Git, React JS
+                                    <span>Developer Skills</span><br />Python, React JS, SQLite, C#, HTML5, CSS3, JavaScript, Git
                                 </li>
                                 <li>
                                     <span>Tools and Platforms</span><br />GitHub, VS Code, PyCharm, Figma, Jupyter Notebook, MS Office, Google Workspace, Adobe Creative Cloud
@@ -61,13 +59,13 @@ const toggleTab = (index) => {
                         <div className={toggleState === 3? 'content active-content': 'content'}>
                             <ul>
                                 <li>
+                                    <span>2024-Present</span><br />Member - GDSC McMaster
+                                </li>
+                                <li>
                                     <span>2022-2024</span><br />Co-President - DECA
                                 </li>
                                 <li>
                                     <span>2021-2024</span><br />Promotions Minister - Student Council
-                                </li>
-                                <li>
-                                    <span>2022-2024</span><br />Senator - DDSB Student Senate
                                 </li>
                             </ul>
                         </div>
