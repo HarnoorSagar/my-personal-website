@@ -149,10 +149,10 @@
     cursor: pointer;
 }
 .arrow-left {
-    left: 0.5rem;
+    left: 1rem;
 }
 .arrow-right {
-    right: 0.5rem;
+    right: 1rem;
 }
 .indicators {
     display: flex;
