@@ -99,7 +99,7 @@ function Hero() {
           <p className="lede">Software Engineering student at McMaster University, currently building AI tools at Geotab.</p>
           <div className="buttons">
             <a className="btn btn-dark" href="#projects">See my projects</a>
-            <a className="btn btn-light" href="#contact">Say hello</a>
+            <a className="btn btn-light" href={`mailto:${links.email}`}>Say hello</a>
           </div>
         </div>
 
