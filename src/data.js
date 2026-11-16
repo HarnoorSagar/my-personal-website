@@ -1,4 +1,5 @@
 // All site content lives here, so updating the site means editing this file only.
+import runwayzero from './assets/runwayzero.jpg'
 import kashio from './assets/kashio.jpg'
 import catan from './assets/catan_board.jpg'
 import bizzybee from './assets/bizzybee.jpg'
@@ -85,6 +86,17 @@ export const experience = [
 ]
 
 export const projects = [
+  {
+    name: 'RunwayZero',
+    featured: true,
+    award: 'Winner · Best In The Clouds Hack',
+    meta: 'HackRPI 2026',
+    text: 'A runway-safety training game driven by a LightGBM trajectory forecaster trained on 129K real Boston Logan traffic reports, cutting position error 24% vs. a Kalman filter. Players call CLEAR or HOLD at a runway crossing, go head-to-head with the model as it draws its 90% forecast cone, and get a Gemini debrief after every round.',
+    stack: 'Python · LightGBM · Kalman Filter · Next.js · TypeScript · Gemini',
+    href: 'https://runway-zero.vercel.app',
+    img: runwayzero,
+    alt: 'RunwayZero tower scope frozen at a runway crossing, with the AI forecast cone and HOLD calls',
+  },
   {
     name: 'Kashio',
     meta: 'ElleHacks 2026 · Wealthsimple category',

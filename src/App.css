@@ -172,3 +172,11 @@ section[id] { scroll-margin-top: 72px; }
 /* Footer rule aligned with content */
 .footer { border-top: 0; background: linear-gradient(#D6DCE5, #D6DCE5) center top / calc(100% - 48px) 1px no-repeat; }
 .front .pills { margin-top: 2px; }
+
+/* Featured project */
+.card .card-text { display: flex; flex-direction: column; }
+.card.featured { grid-column: 1 / -1; flex-direction: row; flex-wrap: wrap; align-items: center; gap: 16px 40px; }
+.card.featured .shot { flex: 3 1 480px; margin-bottom: 0; }
+.card.featured .card-text { flex: 2 1 300px; min-width: 0; }
+.card.featured h3 { font-size: 30px; }
+.award { align-self: flex-start; margin-bottom: 12px; padding: 6px 14px; border-radius: 999px; background: #F3E9CF; color: #6B4E12; font-size: 13px; font-weight: 500; }

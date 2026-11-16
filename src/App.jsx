@@ -212,12 +212,15 @@ function Projects() {
         </div>
         <div className="grid">
           {projects.map((p) => (
-            <a className="card" href={p.href} key={p.name} target="_blank" rel="noreferrer">
+            <a className={`card${p.featured ? ' featured' : ''}`} href={p.href} key={p.name} target="_blank" rel="noreferrer">
               <div className="shot"><img src={p.img} alt={p.alt} loading="lazy" /></div>
-              <p className="meta">{p.meta}</p>
-              <h3>{p.name} ↗</h3>
-              <p className="muted">{p.text}</p>
-              <p className="stack">{p.stack}</p>
+              <div className="card-text">
+                {p.award && <span className="award">{p.award}</span>}
+                <p className="meta">{p.meta}</p>
+                <h3>{p.name} ↗</h3>
+                <p className="muted">{p.text}</p>
+                <p className="stack">{p.stack}</p>
+              </div>
             </a>
           ))}
         </div>
